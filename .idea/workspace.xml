@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23d71508-afe2-40b5-b8e9-9f4954d1ef27" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabatos/dam/fabricacion/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabatos/dam/fabricacion/Articulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabatos/dam/fabricacion/Fabrica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabatos/dam/fabricacion/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabatos/dam/fabricacion/Pedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/iesabatos/dam/fabricacion/AppTest.java" afterDir="false" />
+    <list default="true" id="23d71508-afe2-40b5-b8e9-9f4954d1ef27" name="Changes" comment="Completo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesabatos/dam/fabricacion/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesabatos/dam/fabricacion/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesabatos/dam/fabricacion/Articulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesabatos/dam/fabricacion/Articulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +66,14 @@
       <option name="presentableId" value="Default" />
       <updated>1673886474389</updated>
     </task>
+    <task id="LOCAL-00001" summary="Completo">
+      <created>1673891817423</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673891817423</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +86,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

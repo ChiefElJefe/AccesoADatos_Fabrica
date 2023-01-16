@@ -1,5 +1,6 @@
 package org.iesabatos.dam.fabricacion;
 
+import org.hibernate.Query;
 import org.hibernate.Session;
 
 import java.math.BigDecimal;
@@ -25,7 +26,7 @@ public class App
 
         c.setNombre("Camión");
         c.setPrecio(BigDecimal.valueOf(500.00));
-        c.setNum(0);
+        c.setCod(0);
 
         b.add(new Pedido());
         b.get(0).setFabrica(a);
@@ -46,6 +47,12 @@ public class App
         sesion.getTransaction().commit();
         sesion.close();
 
+        Query query = HibernateUtil.getCurrentSession().createQuery("FROM Articulo");
+        ArrayList<Articulo> articulos = (ArrayList<Articulo>) query.list();
+
+        for (int i = 0; i < articulos.size(); i++) {
+            System.out.println(articulos.get(i).getCod() + "; " + articulos.get(i).getNombre() + "; " + articulos.get(i).getPrecio());
+        }
 
 
 

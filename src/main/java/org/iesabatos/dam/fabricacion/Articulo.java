@@ -10,8 +10,11 @@ import java.util.List;
 public class Articulo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int num;
+    /*@Column(name = "cod")*/
+    private int cod;
+    /*@Column(name = "nombre")*/
     private String nombre;
+    /*@Column(name = "precio")*/
     private java.math.BigDecimal precio;
 
     @OneToMany(mappedBy = "articulo", cascade = CascadeType.ALL)
@@ -20,12 +23,12 @@ public class Articulo {
     public Articulo() {
     }
 
-    public int getNum() {
-        return num;
+    public int getCod() {
+        return cod;
     }
 
-    public void setNum(int num) {
-        this.num = num;
+    public void setCod(int cod) {
+        this.cod = cod;
     }
 
     public String getNombre() {
